@@ -3,7 +3,7 @@ import Button from './Button';
 
 const Hero = () => {
   return (
-    <header className="h-[708px] bg-hero">
+    <header className="h-[707px] bg-hero">
       <div className="container mx-auto">
         <Navbar />
         <div className="text-center mt-20">
