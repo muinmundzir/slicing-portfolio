@@ -1,6 +1,8 @@
 import ContactItem from './ContactItem';
 import SectionParagraph from './SectionParagraph';
 import SectionTitle from './SectionTitle';
+import Field from './Field';
+import Button from './Button';
 
 const ContactSection = () => {
   return (
@@ -31,7 +33,28 @@ const ContactSection = () => {
               className="mt-6"
             />
           </div>
-          <div className="w-6/12">A</div>
+        </div>
+        <div className="w-6/12">
+          <form action="#" className="py-16 px-20">
+            <div className="flex -mx-4">
+              <div className="w-6/12 px-4">
+                <Field label="Name" name="name" type="text" />
+              </div>
+              <div className="w-6/12 px-4">
+                <Field label="Email" name="email" type="text" />
+              </div>
+            </div>
+            <Field label="Subject" name="subject" type="text" />
+            <Field
+              label="Message"
+              name="message"
+              type="textarea"
+              className="h-40"
+            />
+            <div className="text-right">
+              <Button variant="black">Send</Button>
+            </div>
+          </form>
         </div>
       </div>
     </section>
