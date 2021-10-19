@@ -4,14 +4,14 @@ import SectionTitle from './SectionTitle';
 const ProfileSection = () => {
   return (
     <section className="py-28" id="profile">
-      <div className="container mx-auto">
+      <div className="container mx-auto px-10 2xl:px-0">
         <SectionTitle>Profile</SectionTitle>
         <SectionParagraph>Mengenal saya secara singkat.</SectionParagraph>
-        <div className="flex items-center w-9/12 mx-auto mt-10">
-          <div className="w-5/12 p-10">
+        <div className="flex flex-col lg:flex-row items-center xl:w-9/12 mx-auto mt-10">
+          <div className="md:w-5/12 p-10">
             <img src="/profile.png" className="w-full" />
           </div>
-          <div className="w-7/12 px-10">
+          <div className="w-full md:w-7/12 px-10">
             <p className="text-lg text-justify leading-relaxed">
               {' '}
               Aliquam blandit leo lorem, nec vehicula mi accumsan posuere. Duis

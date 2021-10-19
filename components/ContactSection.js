@@ -6,10 +6,10 @@ import Button from './Button';
 
 const ContactSection = () => {
   return (
-    <section className="container mx-auto" id="contact">
-      <div className="flex bg-grayish rounded-lg">
-        <div className="w-6/12 border-r border-graye">
-          <div className="py-16 px-20">
+    <section className="container mx-auto px-10 2xl:px-0" id="contact">
+      <div className="flex flex-col md:flex-row bg-grayish rounded-lg shadow-card">
+        <div className="w-full md:w-6/12 border-b md:border-r border-graye">
+          <div className="p-10 md:p-14 lg:py-16 lg:px-20">
             <SectionTitle left>Contact</SectionTitle>
             <SectionParagraph left>
               Beberapa cara menghubungi saya.
@@ -34,13 +34,13 @@ const ContactSection = () => {
             />
           </div>
         </div>
-        <div className="w-6/12">
-          <form action="#" className="py-16 px-20">
-            <div className="flex -mx-4">
-              <div className="w-6/12 px-4">
+        <div className="w-full md:w-6/12">
+          <form action="#" className="p-14 lg:py-16 lg:px-20">
+            <div className="flex flex-wrap -mx-4">
+              <div className="w-full lg:w-6/12 px-4">
                 <Field label="Name" name="name" type="text" />
               </div>
-              <div className="w-6/12 px-4">
+              <div className="w-full lg:w-6/12 px-4">
                 <Field label="Email" name="email" type="text" />
               </div>
             </div>
