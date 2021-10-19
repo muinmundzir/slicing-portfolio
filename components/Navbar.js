@@ -10,13 +10,13 @@ const Navbar = () => {
       </div>
       <div className="w-6/12">
         <ul className="flex justify-center space-x-10 py-5">
-          <NavItem>Profile</NavItem>
-          <NavItem>Skills</NavItem>
-          <NavItem>Projects</NavItem>
+          <NavItem href="#profile">Profile</NavItem>
+          <NavItem href="#skills">Skills</NavItem>
+          <NavItem href="#projects">Projects</NavItem>
         </ul>
       </div>
       <div className="w-3/12 text-right">
-        <Button variant="outline-yellow" pill>
+        <Button href="#contact" variant="outline-yellow" pill>
           Contact
         </Button>
       </div>

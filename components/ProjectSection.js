@@ -4,7 +4,7 @@ import SectionTitle from './SectionTitle';
 
 const ProjectSection = () => {
   return (
-    <section className="py-28">
+    <section className="py-28" id="projects">
       <div className="container mx-auto">
         <SectionTitle>Projects</SectionTitle>
         <SectionParagraph>Beberapa proyek bikinan saya.</SectionParagraph>

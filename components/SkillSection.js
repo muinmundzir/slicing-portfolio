@@ -4,7 +4,7 @@ import SkillCard from './SkillCard';
 
 const SkillSection = () => {
   return (
-    <section className="py-28 bg-grayish">
+    <section className="py-28 bg-grayish" id="skills">
       <div className="container mx-auto py-28">
         <SectionTitle>Skills</SectionTitle>
         <SectionParagraph>Beberapa kemampuan saya.</SectionParagraph>
