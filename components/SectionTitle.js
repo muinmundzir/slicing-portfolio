@@ -1,10 +1,13 @@
-const SectionTitle = ({ children }) => {
+const SectionTitle = ({ children, left }) => {
   return (
     <>
-      <h2 className="text-center text-2xl font-semibold font-mono">
+      <h2
+        className={`${
+          !left ? 'text-center' : ''
+        } text-2xl font-semibold font-mono`}
+      >
         {children}
       </h2>
-      
     </>
   );
 };
