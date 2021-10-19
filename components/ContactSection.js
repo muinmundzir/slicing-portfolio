@@ -8,7 +8,7 @@ const ContactSection = () => {
   return (
     <section className="container mx-auto">
       <div className="flex bg-grayish rounded-lg">
-        <div className="w-6/12 border-r border-gray">
+        <div className="w-6/12 border-r border-graye">
           <div className="py-16 px-20">
             <SectionTitle left>Contact</SectionTitle>
             <SectionParagraph left>

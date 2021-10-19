@@ -1,4 +1,5 @@
 import ContactSection from '../components/ContactSection';
+import Footer from '../components/Footer';
 import Hero from '../components/Hero';
 import ProfileSection from '../components/ProfileSection';
 import ProjectSection from '../components/ProjectSection';
@@ -12,6 +13,7 @@ export default function Home() {
       <SkillSection />
       <ProjectSection />
       <ContactSection />
+      <Footer />
     </>
   );
 }
